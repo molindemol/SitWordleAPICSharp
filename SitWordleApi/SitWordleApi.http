@@ -1,0 +1,6 @@
+@SitWordleApi_HostAddress = http://localhost:5296
+
+GET {{SitWordleApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

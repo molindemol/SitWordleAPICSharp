@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SitWordleApi.Tests/SitWordleApi.Tests.csproj" />
+  <Project Path="SitWordleApi/SitWordleApi.csproj" />
+</Solution>
