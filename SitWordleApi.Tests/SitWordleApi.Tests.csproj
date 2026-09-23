@@ -23,4 +23,8 @@
     <ProjectReference Include="..\SitWordleApi\SitWordleApi.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="..\SitWordleApi\Data\*.txt" Link="Data\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
